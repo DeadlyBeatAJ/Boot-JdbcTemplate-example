@@ -1,0 +1,13 @@
+create database SpringBootJDBCTemplate;
+
+use SpringBootJDBCTemplate;
+
+create table employee(
+id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+name VARCHAR(100) NOT NULL,
+age INT(5) NOT NULL,
+salary INT(10) DEFAULT NULL,
+PRIMARY KEY (id)
+);
+
+select * from employee;
